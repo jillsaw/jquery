@@ -4,7 +4,7 @@ $(function(){
 
  //original
   $('#blue').on('click',function(){
-   $('#target').toggleClass('sample');
+   $('#target').a('sample');
    
 });
   
