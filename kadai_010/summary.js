@@ -9,10 +9,10 @@ $(function(){
     });
   //要件３・・・フェードアウト
   $('#fade-out').on('click',function(){
-    $('#target').css('opacity', 0);
+    $('#target').fadeOut();
   });
   //要件４・・・フェードイン
   $('#fade-in').on('click',function(){
-    $('#target').css('opacity', 1);
+    $('#target').fadeIn();
   });
 });
